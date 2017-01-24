@@ -1,18 +1,12 @@
-# CypressHackathon_2
-
 A simple python bot, which interfaces with Twitter to handle user tweets.
 
-The pre-requisites are: 1. Python 2.7 and above. 2. Python Modules: Tweepy API, time, keys and sys. 3. Setting up twiter application to geneterate the application keys (visit http://dev.twitter.com)
+The pre-requisites are: 1. Python 2.7 and above. 2. Python Modules: Tweepy API, time, keys and sys. 3. Setting up twitter application to generate the application keys (visit http://dev.twitter.com)
 
 This program connects with Twitter and replies to the user, when the below lines are tweeted.
-
-a. Steps to create a memo.
-
-b. Steps to submit an ECN.
-
-c. Support team/person for an application.
-
-d. Provide Cypress.com forums RSS feeds.
+•	Steps to create a memo.
+•	Steps to submit an ECN.
+•	Support team/person for an application.
+•	Provide Cypress.com forums RSS feeds.
 
 Below is the cmd to run this program:
 
@@ -20,20 +14,21 @@ $python cy_bot.py argv1 argv2 argv3 argv4
 
 Files:
 
-Cy_bot.py is the main python file which has the logic to connect to a twitter hnadle, read a particular tweet, compare it with the string pattern and then post the reply.
+Cy_bot.py is the main python file which has the logic to connect to a twitter handle, read a particular tweet, compare it with the string pattern and then post the reply.
 
-Keys.py : To import the keys dictionary to access the twitter application.
+Keys.py: To import the keys dictionary to access the twitter application.
 
 argv1 to argv4 are text files taken though cmd line as input files, which contain the responses that will get posted on to twitter based on the tweet.
 
-Ex: argv1: memo.text
+Ex: argv1: memo.txt
 
-Below are the steps to submit a Memo:
+•	Below are the steps to submit a Memo:
 
-Login into doc.cypress.com
+•	Login into doc.cypress.com
 
-Enter you LDAP Credentails
+•	Enter you LDAP Credentials
 
-.......................... etc.....
+•	.......................... etc .....
 
-Example ouput is uploaded to the repository.
+Example output is uploaded to the repository.
+
